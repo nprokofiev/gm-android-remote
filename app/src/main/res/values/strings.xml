@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">GM Android Remote</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="read_sms_permission_required">In order to be controlled by SMS
+        application requires READ_SMS permission</string>
+    <string name="read_sms_granted">READ_SMS granted, now you can activate sms control</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+
+
+    <!-- Preference Titles -->
+    <string name="obd_settings">OBD</string>
+    <string name="remote_settings">Remote control</string>
+
+
+    <!-- Messages Preferences -->
+    <string name="bluetooth_device">Your paired device:</string>
+    <string name="enable_sms_control">Enable remote control via sms:</string>
+    <string name="trusted_numbers">Comma separated trusted phone numbers:</string>
+
+
+    <!-- Sync Preferences -->
+   </resources>

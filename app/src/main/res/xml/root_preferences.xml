@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/obd_settings">
+
+
+
+        <ListPreference
+            app:key="bluetooth_device"
+            app:title="@string/bluetooth_device"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/remote_settings">
+        <SwitchPreferenceCompat app:key="enable_sms_remote"
+            app:title="@string/enable_sms_control" />
+        <EditTextPreference
+            app:key="sms_numbers"
+            app:title="@string/trusted_numbers"
+            app:dependency="enable_sms_remote" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
